@@ -1,9 +1,9 @@
 {
   "name": "easy-imports",
   "displayName": "Easy Imports",
-  "description": "Add import statements with a fuzzy file finder.",
+  "description": "Insert relative paths into import statements with fuzzy search autocompletion.",
   "version": "0.0.1",
-  "publisher": "Jimdo",
+  "publisher": "Jimdo GmbH",
   "engines": {
     "vscode": "^1.0.0"
   },
@@ -14,8 +14,7 @@
     "*"
   ],
   "main": "./out/src/extension",
-  "contributes": {
-  },
+  "contributes": {},
   "scripts": {
     "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
     "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
